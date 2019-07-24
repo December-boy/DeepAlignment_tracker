@@ -22,8 +22,7 @@ You need to compile the implementation of the Hungarian algorithm by running mak
 
 Usage:
 
-1) Download the MOT16 sequences
-   from https://motchallenge.net/data/MOT16/
+1) Download the MOT16 sequences from https://motchallenge.net/data/MOT16/ and place them in data folder. Download the traied deep align model from  and place it in models folder.  
    
 2) Preparing Matconvnet and run 'gpu_compile.m' to compile the files used in establishing the deep appearance model.
 
@@ -66,5 +65,13 @@ Usage:
 | JPDA_m | 37.6 |65.9| 11.9% |19.0% |1016 |4858 |139 |260 |Public|
 | EAMTT_pub |39.9 |69.7 |7.1%| 14.3% |758 |4814| 218| 357 |Public|
 | Ours |44.7| 68.6 |9.5%| 7.1%| 1331| 3707| 294| 546| Public|
+
+
+
+## Contacts: 
+If you have any question, please feel free to contact with me.
+
+E-mail: zhouqinqin07@outlook.com
+
 
 
