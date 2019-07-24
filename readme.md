@@ -66,6 +66,26 @@ Usage:
 | EAMTT_pub |39.9 |69.7 |7.1%| 14.3% |758 |4814| 218| 357 |Public|
 | Ours |44.7| 68.6 |9.5%| 7.1%| 1331| 3707| 294| 546| Public|
 
+### 4. Quantitative comparison results on the TUD-Crossing benchmark
+|Tracker| MOTA| MOTP| MT| ML| FP| FN| ID Sw.| Frag| Detector|
+| -------------|:-------------:| :-----:|:-------------:| :-----:|:-------------:| :-----:|:-------------:| :-----:|:-------------:|
+|EAMTT_pub | 48.0 |72.9 |23.1% |15.4% |110 |436 |27 |37 |Public|
+|GMPHD_HDA | 50.5 |72.3 |15.4%| 15.4%| 41 |485| 19 |29 |Public|
+|CppSORT | 50.6| 74.0 |7.7% |15.4%| 22 |489| 33| 57 |Public|
+|JPDA_m | 60.9 |68.4| 30.8% |23.1% |44 |385 |2 |26 |Public|
+|Ours |77.1 |72.1| 76.9%| 0.0% |83 |151 |18 |27 |Public|
+
+### 5. Quantitative comparison results on the ISSIA soccer dataset
+|Tracker| MOTA| MOTP| MT| ML| FP| FN| ID Sw.| Detector|
+| -------------|:-------------:| :-----:|:-------------:| :-----:|:-------------:| :-----:|:-------------:| :-----:|
+|Ours with HSV| 69.5| 71.2 |18.0%| 5.0%| 1463| 2386| 369| YOLOv3|
+|Ours |77.1 |77.9 |19.0% |5.0% |1374| 1992| 119| YOLOv3|
+
+### 6. Quantitative tracking results obtained by our multi-person tracker using Faster R-CNN on MOT16 benchmark
+|Tracker| MOTA| MOTP| MT| ML| FP| FN| ID Sw.| Frag|
+| -------------|:-------------:| :-----:|:-------------:| :-----:|:-------------:| :-----:|:-------------:| :-----:|
+|Ours(with Faster R-CNN) |59.7| 78.9 |32.4% |21.6% |11034 |61160| 1292 |1575|
+
 
 
 ## Contacts: 
