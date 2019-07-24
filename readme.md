@@ -22,7 +22,7 @@ You need to compile the implementation of the Hungarian algorithm by running mak
 
 Usage:
 
-1) Download the MOT16 sequences from https://motchallenge.net/data/MOT16/ and place them in data folder. Download the traied deep align model from  and place it in models folder.  
+1) Download the MOT16 sequences from https://motchallenge.net/data/MOT16/ and place them in data folder. Download the traied deep align model from https://pan.baidu.com/s/1UL5EfgvQJSRDbT3JIrMzXw (umdx) and place it in models folder.  
    
 2) Preparing Matconvnet and run 'gpu_compile.m' to compile the files used in establishing the deep appearance model.
 
